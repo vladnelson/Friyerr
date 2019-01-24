@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.stagiaire.friyerr">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher_icon_friyerr"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.ScreenLunch">
+
+        <activity android:name=".ScreemLunchActivity"
+                  android:theme="@style/Theme.ScreenLunch"
+                  android:screenOrientation="locked"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FriyerrLoginActivity"
+                  android:theme="@style/LoginTheme"
+                  android:screenOrientation="locked">
+        </activity>
+
+        <activity android:name=".FriyerrRegisterActivity"
+                  android:theme="@style/LoginTheme"
+                  android:screenOrientation="locked">
+        </activity>
+
+        <activity android:name=".FriyerrForgotPasswordActivity"
+                  android:theme="@style/LoginTheme"
+                  android:screenOrientation="locked">
+        </activity>
+
+    </application>
+
+</manifest>

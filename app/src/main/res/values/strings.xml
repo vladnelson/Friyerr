@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Friyerr</string>
+    <string name="action_settings">Settings</string>
+    <string name="ForgotPassword"><u>Forgot password ?</u></string>
+</resources>
